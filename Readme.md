@@ -25,9 +25,8 @@ Your `script.js` should nouw look like this :
 ```js
 (typeof DFine === 'function' ? {DFine : DFine} : require('DFine').DFine);
 
-DFine(  'module.sub.script' //the name of your submodule
-      , ['module.core.dep1', 'module.core.dep1'] //your dependencies
-      , function(dep1, dep2, require, exports) {
+DFine('module.sub.script', ['module.core.dep1', 'module.core.dep1'], function(dep1, dep2, require, exports) {
+  //      ^ name of the module    ^ dependencies of the module          ^ the code in this function
   
         var class = require('module.core.class'); //use require if you want to add some dependencies
         
