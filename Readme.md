@@ -46,6 +46,7 @@ DFine('module.sub.script', ['module.core.dep1', 'module.core.dep1'], function(de
 ### In Node
 
   If yout want to do some test on your `script.js` without loading all your module but with the dependencies needed, just use :
+  
   ```js
   var script = require('rigth/paht/to/your/script.js');
   
@@ -77,5 +78,5 @@ DFine('module.sub.script', ['module.core.dep1', 'module.core.dep1'], function(de
   module.dp1; //should be here too
   //and all you need also, nice !
   ```
-  _Warning_ : yes, you probably have noticed, I have polluted the name-space in the browser. You got as global variable the 'DFine' function.. Is this really annoying ??
+  _Warning_ : yes, you probably have noticed, I have polluted the name-space in the browser. You got as global variable the `DFine` function.. Is this really annoying ??
   
