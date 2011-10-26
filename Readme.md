@@ -23,7 +23,7 @@ Your repertory looks like this :
 Your `script.js` should nouw look like this :
 
 ```js
-(typeof DFine === 'function' ? {DFine : DFine} : require('DFine').DFine);
+(typeof DFine === 'function' ? {DFine : DFine} : require('DFine')._(exports).DFine);
 
 DFine('module.sub.script', ['module.core.dep1', 'module.core.dep1'], function(dep1, dep2, require, exports) {
   //      ^ name of the module    ^ dependencies of the module          ^ the code in this function
