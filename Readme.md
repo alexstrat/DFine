@@ -1,3 +1,5 @@
+#PENDING
+
 I was looking for an easy way to organize a javascript module client-side and node-side whithout using asynchronous call in the browser but a server-side builder.
 
 The syntax should be familiar and get inspiration of the commmonJS AMD spec..
